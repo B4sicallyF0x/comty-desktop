@@ -1,0 +1,31 @@
+# nodejs
+node_modules/
+package-lock.json
+
+# builds
+dist/
+release/
+out/
+build/*.exe
+build/*.dmg
+build/*.AppImage
+build/*.snap
+
+# cache
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env
+.env
+.env.*.local
+
+# os trash
+.DS_Store
+Thumbs.db
+
+# vscode and tests
+.vscode/
+coverage/

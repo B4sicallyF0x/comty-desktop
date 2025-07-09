@@ -1,0 +1,65 @@
+{
+  "name": "comty-desktop",
+  "version": "1.0.0",
+  "description": "Desktop client for Comty, the platform to hold all your creative",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/B4sicallyF0x/comty-desktop.git"
+  },
+  "keywords": [],
+  "author": "Comty™",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/B4sicallyF0x/comty-desktop/issues"
+  },
+  "homepage": "https://github.com/B4sicallyF0x/comty-desktop#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.comty.app",
+    "productName": "Comty",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "**/*"
+    ],
+    "publish": [
+      {
+        "provider": "github"
+      }
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": "nsis",
+      "artifactName": "comty-windows-x64.${ext}"
+    },
+    "mac": {
+      "icon": "build/icon.icns",
+      "target": "dmg",
+      "artifactName": "comty-macos-arm64.${ext}"
+    },
+    "linux": {
+      "icon": "build/icon.png",
+      "target": "AppImage",
+      "artifactName": "comty-linux.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Comty"
+    }
+  }
+}
