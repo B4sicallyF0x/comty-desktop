@@ -12,9 +12,9 @@
 
 You can download the latest release of **Comty Desktop** from the following link:
 
-👉 **[Windows Build](https://github.com/B4sicallyF0x/comty-desktop/releases/latest/download/comty-windows-x64.exe)**
-👉 **[macOS Build](https://github.com/B4sicallyF0x/comty-desktop/releases/latest/download/comty-macos-arm64.dmg)**
-👉 **[Linux Build](https://github.com/B4sicallyF0x/comty-desktop/releases/latest/download/comty-linux.AppImage)**
+👉 **[Windows Build](https://github.com/B4sicallyF0x/comty-desktop/releases/latest/download/comty-windows-x64.exe)**  
+👉 **[macOS Build](https://github.com/B4sicallyF0x/comty-desktop/releases/latest/download/comty-macos-arm64.dmg)**  
+👉 **[Linux Build](https://github.com/B4sicallyF0x/comty-desktop/releases/latest/download/comty-linux.AppImage)**  
 
 ---
 
